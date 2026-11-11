@@ -25,7 +25,7 @@
     <mirror>
       <id>central</id>
       <name>central</name>
-      <url>http://nexus3-devops.apps.sharedocp421.sbr-shift.gsslab.brq2.redhat.com/repository/maven-group/</url>
+      <url>http://nexus3-http-devops.apps.sharedocp421.sbr-shift.gsslab.brq2.redhat.com/repository/maven-group/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
