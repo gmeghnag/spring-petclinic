@@ -4,7 +4,7 @@
 #WORKDIR /tmp/
 #RUN mvn package
 
-FROM docker.io/openjdk
+FROM docker.io/eclipse-temurin:8
 #COPY --from=MAVEN_TOOL_CHAIN /tmp/target/*.jar /
 COPY ./target/*.jar spring-boot-docker.jar
 EXPOSE 8080
